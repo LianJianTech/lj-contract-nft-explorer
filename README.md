@@ -2,6 +2,7 @@
 
 ## Pinata上传NFT图片
 ```
+./assets/image
 https://gateway.pinata.cloud/ipfs/QmNisr7JTsNDgh14ksAZXiJidka7kFZYHEQqmLZXyY7LRH
 ipfs:///QmNisr7JTsNDgh14ksAZXiJidka7kFZYHEQqmLZXyY7LRH/0.png
 ...
@@ -9,6 +10,7 @@ ipfs:///QmNisr7JTsNDgh14ksAZXiJidka7kFZYHEQqmLZXyY7LRH/0.png
 
 ## Pinata上传NFT元数据
 ```
+./assets/metadata
 https://gateway.pinata.cloud/ipfs/QmSZmXKcfC9WgFewoGCgRpjfaHxSDxA54BCVZGhm8y72Zx
 ipfs:///QmSZmXKcfC9WgFewoGCgRpjfaHxSDxA54BCVZGhm8y72Zx/0
 ```

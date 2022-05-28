@@ -1,5 +1,7 @@
 # NFT Explorer
 
+<img src="assets/nft.png"  width="480" alt="nft" style="display: inline-block" />
+
 ## Pinata上传NFT图片
 ```
 ./assets/image
@@ -23,23 +25,23 @@ npx hardhat compile
 ## 测试网部署和调试
 ```
 npx hardhat run scripts/deploy.nft.explorer.js --network rinkeby 
-contract: 0x7Ac1de3b3B78E5e466E58Bb497d44976feBd84e0
+contract: 0x26a0fe1912a19fd915a5935E34076B46ceCDfba8
 ```
 
 ## 设置BaseURI
 ```
 npx hardhat run scripts/set.base.url.js --network rinkeby 
-NFTExplorer name: web3_explorer
-NFTExplorer symbol: WEB3_EXPLORER
-NFTExplorer setBaseURI tx hash: 0x12378ce0ade6fa12967df0afa5a99008459791375ef1ee8daf5ff85f085dcb60
+NFTExplorer name: lj_nft_explorer
+NFTExplorer symbol: LJ_NFT_EXPLORER
+NFTExplorer setBaseURI tx hash: 0x9f3efcf821b1910ed9ad48f865ab6f0a27ec9badc7fa61a06c25f2a1580d1880
 ```
 
 ## Mint NFT
 ```
 npx hardhat run scripts/mint.nft.js
-NFTExplorer name: web3_explorer
+NFTExplorer name: lj_nft_explorer
 NFTExplorer price: BigNumber { value: "10000000000000000" }
-NFTExplorer mint tx hash: 0x10db139dcb26654d8b394ac5f830e1fcb29e9f0bd8717dac46291d5509ae745b
+NFTExplorer mint tx hash: 0x37bf75b3dfadb11559c21e929ea12a797bd75c12e228be375aa7f2013b5a1c82
 ```
 
 ## 查询NFT

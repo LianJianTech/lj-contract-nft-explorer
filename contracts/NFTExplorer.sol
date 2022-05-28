@@ -7,11 +7,11 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 
 
 contract NFTExplorer is ERC721, ERC721Enumerable, Ownable {
-    uint256 public constant MAX_SUPPLY = 1000;
+    uint256 public constant MAX_SUPPLY = 100;
     uint256 public constant PRICE_PER_TOKEN = 0.01 ether;
     string private _baseURIExtended;
 
-    constructor() ERC721("web3_explorer", "WEB3_EXPLORER") {}
+    constructor() ERC721("lj_nft_explorer", "LJ_NFT_EXPLORER") {}
 
     function _beforeTokenTransfer(address from, address to, uint256 tokenId) internal virtual override(ERC721, ERC721Enumerable) {
         super._beforeTokenTransfer(from, to, tokenId);

@@ -1,17 +1,13 @@
-# NFT Explorer
+# LJ NFT Explorer
 
 <img src="assets/nft.png"  width="480" alt="nft" style="display: inline-block" />
 
-## Pinata上传NFT图片
+## Pinata上传NFT图片和元数据
 ```
 ./assets/image
 https://gateway.pinata.cloud/ipfs/QmNisr7JTsNDgh14ksAZXiJidka7kFZYHEQqmLZXyY7LRH
 ipfs:///QmNisr7JTsNDgh14ksAZXiJidka7kFZYHEQqmLZXyY7LRH/0.png
-...
-```
 
-## Pinata上传NFT元数据
-```
 ./assets/metadata
 https://gateway.pinata.cloud/ipfs/QmSZmXKcfC9WgFewoGCgRpjfaHxSDxA54BCVZGhm8y72Zx
 ipfs:///QmSZmXKcfC9WgFewoGCgRpjfaHxSDxA54BCVZGhm8y72Zx/0
@@ -22,7 +18,7 @@ ipfs:///QmSZmXKcfC9WgFewoGCgRpjfaHxSDxA54BCVZGhm8y72Zx/0
 npx hardhat compile
 ```
 
-## 测试网部署和调试
+## 测试网部署
 ```
 npx hardhat run scripts/deploy.nft.explorer.js --network rinkeby 
 contract: 0x26a0fe1912a19fd915a5935E34076B46ceCDfba8

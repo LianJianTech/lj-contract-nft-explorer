@@ -1,0 +1,12 @@
+{
+  "name": "NFT-02",
+  "description": "NET DEV2",
+  "image": "ipfs://QmNpt4FHM8CjbymRKxTcaeH1zm8QZxLiqaiy8Mdi7BABUz/222.png",
+  "external_url": "https://github.com/LianJianTech",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "2"
+    }
+  ]
+}

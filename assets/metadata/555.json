@@ -1,0 +1,12 @@
+{
+  "name": "NFT-05",
+  "description": "NET DEV5",
+  "image": "ipfs://QmNpt4FHM8CjbymRKxTcaeH1zm8QZxLiqaiy8Mdi7BABUz/555.png",
+  "external_url": "https://github.com/LianJianTech",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "5"
+    }
+  ]
+}

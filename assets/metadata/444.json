@@ -1,0 +1,12 @@
+{
+  "name": "NFT-04",
+  "description": "NET DEV4",
+  "image": "ipfs://QmNpt4FHM8CjbymRKxTcaeH1zm8QZxLiqaiy8Mdi7BABUz/444.png",
+  "external_url": "https://github.com/LianJianTech",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "4"
+    }
+  ]
+}

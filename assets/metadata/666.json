@@ -1,0 +1,12 @@
+{
+  "name": "NFT-06",
+  "description": "NET DEV6",
+  "image": "ipfs://QmNpt4FHM8CjbymRKxTcaeH1zm8QZxLiqaiy8Mdi7BABUz/666.png",
+  "external_url": "https://github.com/LianJianTech",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "6"
+    }
+  ]
+}

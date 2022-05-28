@@ -2,7 +2,7 @@
 const hre = require('hardhat');
 
 async function main() {
-    const contractAddress = "0x98e0f213081E1F79531aFA63630edf2871aD64d3";
+    const contractAddress = "0x7Ac1de3b3B78E5e466E58Bb497d44976feBd84e0";
     const NFTExplorer = await hre.ethers.getContractFactory("NFTExplorer");
     const nftExplorer = await NFTExplorer.attach(contractAddress);
 
@@ -14,7 +14,7 @@ async function main() {
    let  totalSupply = await nftExplorer.totalSupply();
    console.log("NFTExplorer totalSupply:", totalSupply);
 
-   let tokenURI = await nftExplorer.tokenURI(1);
+   let tokenURI = await nftExplorer.tokenURI(0);
    console.log("NFTExplorer tokenURI:", tokenURI);
 
 }

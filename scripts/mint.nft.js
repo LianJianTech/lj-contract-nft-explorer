@@ -2,7 +2,7 @@ const hre = require('hardhat');
 
 const nft_json = require('../artifacts/contracts/NFTExplorer.sol/NFTExplorer.json');
 const nft_abi = nft_json.abi;
-const contract_address = "0x98e0f213081E1F79531aFA63630edf2871aD64d3";
+const contract_address = "0x7Ac1de3b3B78E5e466E58Bb497d44976feBd84e0";
 const private_key = process.env.private_key;
 
 const provider = new hre.ethers.getDefaultProvider("rinkeby");
@@ -17,7 +17,7 @@ async function main() {
     console.log("NFTExplorer price:", price);
 
     const contractWithSinger = contract.connect(wallet);
-    let tx = await contractWithSinger.mint(1, {value: price});
+    let tx = await contractWithSinger.mint(5, {value: price});
     console.log("NFTExplorer mint tx hash:", tx.hash);
 }
 

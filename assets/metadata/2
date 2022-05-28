@@ -1,12 +1,12 @@
 {
-  "name": "NFT-03",
-  "description": "NET DEV3",
+  "name": "LJ-NFT-02",
+  "description": "LJ-NFT-02 DEV",
   "image": "ipfs://QmNisr7JTsNDgh14ksAZXiJidka7kFZYHEQqmLZXyY7LRH/2.png",
   "external_url": "https://github.com/LianJianTech",
   "attributes": [
     {
       "trait_type": "Color",
-      "value": "3"
+      "value": "2"
     }
   ]
 }

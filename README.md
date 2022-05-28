@@ -1,4 +1,4 @@
-# LJ NFT Explorer
+# LJ NFT Explorer: Pinata、Solidity、IPFS、OpenSea...
 
 <img src="assets/nft.png"  width="480" alt="nft" style="display: inline-block" />
 

@@ -31,7 +31,7 @@ contract NFTExplorer is ERC721, ERC721Enumerable, Ownable {
     }
 
 
-    function mint(uint256 numberOfTokens) external onlyOwner {
+    function mint(uint256 numberOfTokens) public payable {
         uint256 ts = totalSupply();
         require(ts + numberOfTokens <= MAX_SUPPLY, "purchase would exceed max supply");
         for (uint256 i = 0; i < numberOfTokens; i++) {

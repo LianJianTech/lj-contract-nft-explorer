@@ -22,7 +22,7 @@ contract NFTExplorer is ERC721, ERC721Enumerable, Ownable {
     }
 
 
-    function setBaseURI(string memory baseURI_) external onlyOwner() {
+    function setBaseURI(string memory baseURI_) external onlyOwner {
         _baseURIExtended = baseURI_;
     }
 

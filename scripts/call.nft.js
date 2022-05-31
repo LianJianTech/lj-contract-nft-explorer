@@ -20,7 +20,7 @@ const getTotalSupply = async () => {
 const getMetaDataList = async () => {
     const totalSupply = await getTotalSupply();
     const dataList = [];
-    for (let tokenID = 0; tokenID < 2; tokenID++) {
+    for (let tokenID = 0; tokenID < totalSupply; tokenID++) {
         const tokenURI = await getTokenURI(tokenID);
         const httpURL = ipfsToHttp(tokenURI);
         const res = await parseMetaData(httpURL);

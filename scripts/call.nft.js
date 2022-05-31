@@ -13,7 +13,7 @@ const wallet = new hre.ethers.Wallet(private_key, provider);
 
 const getTotalSupply = async () => {
     const totalSupply = await contract.totalSupply();
-    console.log("totalSupply: ", totalSupply);
+    console.log("totalSupply:", totalSupply);
     return totalSupply;
 };
 
@@ -36,7 +36,7 @@ const getTokenURI = async (tokenID) => {
 };
 
 const parseMetaData = async (tokenURI) => {
-    console.log("parseMetaData tokenURI: " + tokenURI);
+    console.log("parseMetaData tokenURI:", tokenURI);
     const res = await fetch(tokenURI);
     const json = await res.json();
     console.log("parseMetaData json:", json);

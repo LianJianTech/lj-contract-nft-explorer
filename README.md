@@ -52,3 +52,9 @@ npx hardhat run scripts/query.nft.js --network rinkeby
 ```
 https://testnets.opensea.io/account
 ```
+
+## 获取NFT的URL链接
+```
+npm install node-fetch
+npx hardhat run scripts/call.nft.js
+```

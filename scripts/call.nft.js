@@ -26,12 +26,12 @@ const getMetaDataList = async () => {
         const res = await parseMetaData(httpURL);
         dataList.push(ipfsToHttp(res.image));
     }
-    console.log("getMetaDataList: ", dataList);
+    console.log("getMetaDataList:", dataList);
 };
 
 const getTokenURI = async (tokenID) => {
     const tokenURI = await contract.tokenURI(tokenID);
-    console.log("tokenID:" + tokenID + ", tokenURI: " + tokenURI);
+    console.log("tokenID:" + tokenID + ", tokenURI:" + tokenURI);
     return tokenURI;
 };
 

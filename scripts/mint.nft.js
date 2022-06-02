@@ -17,7 +17,7 @@ async function main() {
     console.log("NFTExplorer price:", price);
 
     const contractWithSinger = contract.connect(wallet);
-    let tx = await contractWithSinger.mint(5, {value: price});
+    let tx = await contractWithSinger.mint(1, {value: price});
     console.log("NFTExplorer mint tx hash:", tx.hash);
 }
 

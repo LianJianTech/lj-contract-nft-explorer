@@ -60,30 +60,6 @@ npx hardhat run scripts/call.nft.js
 ```
 
 ## SubGraph
-- 安装Graph CLI
-```
-npm install -g @graphprotocol/graph-cli
-```
-- 创建SubGraph
-```
-cd subgraph 
-graph init \
-  --from-contract 0x26a0fe1912a19fd915a5935E34076B46ceCDfba8 \
-  --network rinkeby \
-  --abi NFTExplorer.json \
-  FlashMeta/Explorer123
-```
-- 定义存储结构
-```
-schema.graphql
-```
-
-- 事件逻辑处理
-```
-nft-explorer.ts
-```
-
-- Subgraph
 ```
 npm i @apollo/client graphql
 npm install --save react react-dom @types/react @types/react-dom

@@ -82,3 +82,12 @@ schema.graphql
 ```
 nft-explorer.ts
 ```
+
+- Subgraph
+```
+npm i @apollo/client graphql
+npm install --save react react-dom @types/react @types/react-dom
+npm install --save cross-fetch
+
+npx hardhat run scripts/subgraph.js
+```

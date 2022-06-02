@@ -2,7 +2,7 @@ const hre = require('hardhat');
 
 const nft_json = require('../artifacts/contracts/NFTExplorer.sol/NFTExplorer.json');
 const nft_abi = nft_json.abi;
-const contract_address = "0x26a0fe1912a19fd915a5935E34076B46ceCDfba8";
+const contract_address = "0x9b6dbE875D970F5FB0e0ADF9B33E2C0f6692Df5b";
 const private_key = process.env.private_key;
 
 const provider = new hre.ethers.getDefaultProvider("rinkeby");

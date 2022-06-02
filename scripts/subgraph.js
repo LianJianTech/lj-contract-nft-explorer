@@ -4,7 +4,7 @@ const fetch = require('cross-fetch');
 const getMetaDataList = async () => {
     const client = new ApolloClient({
         link: new HttpLink({
-            uri: "https://api.thegraph.com/subgraphs/name/flash-meta/explorer123",
+            uri: "https://api.thegraph.com/subgraphs/name/flash-meta/explorer456",
             fetch,
         }),
         cache: new InMemoryCache()

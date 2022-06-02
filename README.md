@@ -24,7 +24,7 @@ npx hardhat compile
 ## 测试网部署
 ```
 npx hardhat run scripts/deploy.nft.explorer.js --network rinkeby 
-contract: 0x26a0fe1912a19fd915a5935E34076B46ceCDfba8
+contract: 0x9b6dbE875D970F5FB0e0ADF9B33E2C0f6692Df5b
 ```
 
 ## 设置BaseURI
@@ -32,7 +32,7 @@ contract: 0x26a0fe1912a19fd915a5935E34076B46ceCDfba8
 npx hardhat run scripts/set.base.url.js --network rinkeby 
 NFTExplorer name: lj_nft_explorer
 NFTExplorer symbol: LJ_NFT_EXPLORER
-NFTExplorer setBaseURI tx hash: 0x9f3efcf821b1910ed9ad48f865ab6f0a27ec9badc7fa61a06c25f2a1580d1880
+NFTExplorer setBaseURI tx hash: 0x7be63feed021566b49858d0b250b51b338ae40ff999d4a5efd4a00df9566196e
 ```
 
 ## Mint NFT
@@ -40,7 +40,7 @@ NFTExplorer setBaseURI tx hash: 0x9f3efcf821b1910ed9ad48f865ab6f0a27ec9badc7fa61
 npx hardhat run scripts/mint.nft.js
 NFTExplorer name: lj_nft_explorer
 NFTExplorer price: BigNumber { value: "10000000000000000" }
-NFTExplorer mint tx hash: 0x37bf75b3dfadb11559c21e929ea12a797bd75c12e228be375aa7f2013b5a1c82
+NFTExplorer mint tx hash: 0xc8f3b8f7e6e9231e67cf065ecaaa665db2b04d9808e05bea7678fd075a4b5eb9
 ```
 
 ## 查询NFT

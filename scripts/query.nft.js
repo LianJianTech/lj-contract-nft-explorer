@@ -2,7 +2,7 @@
 const hre = require('hardhat');
 
 async function main() {
-    const contractAddress = "0x26a0fe1912a19fd915a5935E34076B46ceCDfba8";
+    const contractAddress = "0x9b6dbE875D970F5FB0e0ADF9B33E2C0f6692Df5b";
     const NFTExplorer = await hre.ethers.getContractFactory("NFTExplorer");
     const nftExplorer = await NFTExplorer.attach(contractAddress);
 

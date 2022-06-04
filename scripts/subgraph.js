@@ -1,7 +1,7 @@
 const { ApolloClient, InMemoryCache, gql, HttpLink } = require("@apollo/client");
 const fetch = require('cross-fetch');
 
-const getMetaDataList = async () => {
+const getMyTransferDataList = async () => {
     const client = new ApolloClient({
         link: new HttpLink({
             uri: "https://api.thegraph.com/subgraphs/name/flash-meta/explorer666",
@@ -21,13 +21,13 @@ const getMetaDataList = async () => {
         }`
     });
     const dataList = resp?.data?.myTransfers;
-    console.log("getMetaDataList resp:", resp);
-    console.log("getMetaDataList dataList:", dataList);
+    console.log("getMyTransferDataList resp:", resp);
+    console.log("getMyTransferDataList dataList:", dataList);
     return dataList;
 };
 
 async function main() {
-    await getMetaDataList();
+    await getMyTransferDataList();
 }
 
 main()
